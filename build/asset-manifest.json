@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lab-sistemas/static/css/main.073c9b0a.css",
+    "main.js": "/lab-sistemas/static/js/main.abed1650.js",
+    "static/js/787.1be9505a.chunk.js": "/lab-sistemas/static/js/787.1be9505a.chunk.js",
+    "static/media/logo.svg": "/lab-sistemas/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lab-sistemas/index.html",
+    "main.073c9b0a.css.map": "/lab-sistemas/static/css/main.073c9b0a.css.map",
+    "main.abed1650.js.map": "/lab-sistemas/static/js/main.abed1650.js.map",
+    "787.1be9505a.chunk.js.map": "/lab-sistemas/static/js/787.1be9505a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.abed1650.js"
+  ]
+}
