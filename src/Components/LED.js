@@ -23,35 +23,35 @@ const LED = (props) => {
     {
         return(
             <div className='LedSquare ledOff' onClick={increment}>
-                {counter}
+                
         </div>
     );
     }else if(counter == 25)
     {
         return(
             <div className='LedSquare ledOn25' onClick={increment}>
-                {counter}
+               
            </div>
         );  
     }else if(counter == 50)
     {
         return(
             <div className='LedSquare ledOn50' onClick={increment}>
-                {counter}
+               
            </div>
         );  
     }else if(counter == 75)
     {
         return(
             <div className='LedSquare ledOn75' onClick={increment}>
-                {counter}
+                
            </div>
         );  
     }else
     {
         return(
             <div className='LedSquare ledOn100' onClick={increment}>
-                {counter}
+                
            </div>
         );  
     }
