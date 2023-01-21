@@ -2,10 +2,39 @@ body
 {
  background-image: url("./images/background.webp");
 }
+.DE2GridElement
+{
+  background-image: url("./images/DE2.png");
+}
 .container
 {
   display: grid;
-  grid-template-columns: auto 900px auto;
-  grid-template-rows: 10% auto 200px;
+  grid-template-columns: auto 870px auto;
+  grid-template-rows: 10% 622px 200px;
 }
+.container div
+{
+
+}
+.container2
+{
+  display: grid;
+  height: 100%;
+  grid-template-columns: 55px auto 85px;
+  grid-template-rows: 530px 20px auto;
+}
+.LedSquare
+{
+  border-radius: 20%;
+  background-color: yellow;
+  height: 20px;
+  width: 20px;
+  outline: 1px solid blue;
+  margin-right: 8.15px;
+}
+.ledRow
+{
+  display: flex;
+}
+
 

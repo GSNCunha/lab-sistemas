@@ -1,9 +1,25 @@
-import DE2 from '../images/DE2.png'
+
+import LED from "./LED";
 
 const DE2Component = (props) => {
     return(
-        <div>
-            <img src={DE2} alt="imagem da placa DE2"></img>
+        <div className='DE2GridElement'>
+         <div className='container2'>
+            <div className='blank'/>
+            <div className='blank'/>
+            <div className='blank'/>
+            <div className='blank'/>
+            <div className='ledRow'>
+                <LED/>
+                <LED/>
+                <LED/>
+                <LED/>
+            </div>
+            <div className='blank'/>
+            <div className='blank'/>
+            <div className='blank'/>
+            <div className='blank'/>
+        </div>
        </div>
     );
 };
