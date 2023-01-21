@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lab-sistemas/static/css/main.02a67d81.css",
+    "main.css": "/lab-sistemas/static/css/main.604dff8e.css",
     "main.js": "/lab-sistemas/static/js/main.d2747f43.js",
     "static/js/787.1be9505a.chunk.js": "/lab-sistemas/static/js/787.1be9505a.chunk.js",
     "static/media/DE2.png": "/lab-sistemas/static/media/DE2.c8aa352c9d5088f1690a.png",
     "static/media/background.webp": "/lab-sistemas/static/media/background.cb2d012e08bcdd835509.webp",
     "index.html": "/lab-sistemas/index.html",
-    "main.02a67d81.css.map": "/lab-sistemas/static/css/main.02a67d81.css.map",
+    "main.604dff8e.css.map": "/lab-sistemas/static/css/main.604dff8e.css.map",
     "main.d2747f43.js.map": "/lab-sistemas/static/js/main.d2747f43.js.map",
     "787.1be9505a.chunk.js.map": "/lab-sistemas/static/js/787.1be9505a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a67d81.css",
+    "static/css/main.604dff8e.css",
     "static/js/main.d2747f43.js"
   ]
 }
