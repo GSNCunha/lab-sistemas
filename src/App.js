@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Grid from "./Components/Grid";
 
 function App() {
   return (
-    <div className="App">
-          <h1>agora sou eu fazendo algo aqui</h1>
+    <div className='App'>
+      <Grid/>
     </div>
   );
 }
