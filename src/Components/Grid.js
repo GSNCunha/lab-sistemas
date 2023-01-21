@@ -1,5 +1,4 @@
 import DE2Component from "./DE2Component";
-import LedEditor from "./LedEditor";
 
 
 
@@ -14,7 +13,6 @@ const Grid = (props) => {
             <DE2Component/>
             <div className='blank'/>
             <div className='blank'/>
-            <LedEditor/>
             <div className='blank'/>
         </div>
     );
