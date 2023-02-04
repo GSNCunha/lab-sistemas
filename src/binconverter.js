@@ -1,25 +1,25 @@
 export function converter(value, led)
 {
-    let bin = 1000000001;
+    let bin = 10000000;
     if(value != 0)
-    {
-        bin += 100000;
-    }
-    if(led == 2 || led == 4)
-    {
-        bin += 1000;
-    }
-    if( led == 3 || led == 4)
     {
         bin += 10000;
     }
+    if(led == 2 || led == 4)
+    {
+        bin += 100;
+    }
+    if( led == 3 || led == 4)
+    {
+        bin += 1000;
+    }
     if(value == 50 || value == 100)
     {
-        bin += 10;
+        bin += 1;
     }
     if( value == 75 || value == 100)
     {
-        bin += 100;
+        bin += 10;
     }
     return addStart(withoutFirstChar(bin.toString()), "0");   
 }
