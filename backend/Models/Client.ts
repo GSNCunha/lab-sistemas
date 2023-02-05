@@ -6,8 +6,5 @@ export class Client {
   id: string;
 
   @Field()
-  led: string;
-
-  @Field()
   state: string;
 }

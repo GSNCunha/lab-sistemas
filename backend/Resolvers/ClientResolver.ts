@@ -1,4 +1,5 @@
-import { Query, Resolver } from "type-graphql";
+import { Mutation, Arg, Query, Resolver } from "type-graphql";
+import { CreateClientInput } from "../inputs/ClientInput";
 import { Client } from "../Models/Client";
 import { ClientMongo } from "../mongodb/Models/Client";
 
@@ -9,5 +10,15 @@ export class ClientResolver{
 async clients(){
     return await ClientMongo.find();
 }
+@Mutation(() => Client)
+async createClient(
+    @Arg("createClientObject") createClientObject: CreateClientInput,
+){
 
+    const { state } = createClientObject
+
+    return await ClientMongo.create({
+       state 
+    });
+}
 }

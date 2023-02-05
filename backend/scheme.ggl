@@ -5,8 +5,15 @@
 
 type Client {
   id: ID!
-  led: String!
   state: String!
+}
+
+input CreateClientInput {
+  state: String!
+}
+
+type Mutation {
+  createClient(createClientObject: CreateClientInput!): Client!
 }
 
 type Query {
