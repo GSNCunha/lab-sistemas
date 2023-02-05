@@ -12,10 +12,17 @@ input CreateClientInput {
   state: String!
 }
 
+input EditClientInput {
+  id: ID!
+  state: String!
+}
+
 type Mutation {
   createClient(createClientObject: CreateClientInput!): Client!
+  editClient(editClientObject: EditClientInput!): Client!
 }
 
 type Query {
+  client(id: String!): Client!
   clients: [Client!]!
 }
