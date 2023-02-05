@@ -1,11 +1,13 @@
 import { Query, Resolver } from "type-graphql";
+import { Client } from "../Models/Client";
+import { ClientMongo } from "../mongodb/Models/Client";
 
 @Resolver()
 export class ClientResolver{
 
-@Query(()=> String)
-async hello(){
-    return "Hello world";
+@Query(()=> [Client])
+async clients(){
+    return await ClientMongo.find();
 }
 
 }

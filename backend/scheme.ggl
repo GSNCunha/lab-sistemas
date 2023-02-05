@@ -3,6 +3,12 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Client {
+  id: ID!
+  led: String!
+  state: String!
+}
+
 type Query {
-  hello: String!
+  clients: [Client!]!
 }
