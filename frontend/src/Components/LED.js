@@ -1,6 +1,4 @@
 import React, { useState, useContext, useEffect } from "react";
-import { AppContext } from "../App";
-import {converter} from "../binconverter.js"
 import { useQuery, useMutation, gql } from "@apollo/client";
 
 export const GET_CLIENTS = gql`
@@ -34,18 +32,15 @@ const LED = (props) => {
             }
           }
         });
-        console.log(result);
       };
 
 
     const [counter, setCounter] = useState(0);
-    const {setBin} = useContext(AppContext)
     const { data, loading, error } = useQuery(GET_CLIENTS);
   
     useEffect(() => {
       if (data && data.clients) {
         setCounter(parseInt(data.clients[props.number].state), 2);
-        console.log(parseInt(data.clients[props.number].state))
       }
     }, [data]);
 
