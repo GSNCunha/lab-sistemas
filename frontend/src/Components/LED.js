@@ -59,8 +59,8 @@ const LED = (props) => {
             handleEdit(data.clients[props.number].id,(counter+33).toString());
             setCounter(counter+33); 
 
-        }else 
-        {
+        }else//test
+          {
             handleEdit(data.clients[props.number].id, "0")
             setCounter(0);  
         }
