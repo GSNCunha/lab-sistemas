@@ -14,11 +14,14 @@ port.on('data', function(data) {
   // convert the received data to an array of bytes
   const bytes = Array.from(data);
 
-  // log the array of bytes to the console
-  console.log('Data:', bytes);
+  // get the first element of the array (assuming all elements are the same)
+  const value = bytes[0];
 
-  // write the binary data to the "arduino.txt" file
-  fs.writeFile('./arduino.txt', bytes.toString(), function(err) {
+  // log the value to the console
+  console.log('Data:', value);
+
+  // write the value to the "arduino.txt" file
+  fs.writeFile('./arduino.txt', value.toString(), function(err) {
     if (err) throw err;
     console.log('Data written to arduino.txt');
   });
@@ -30,7 +33,7 @@ function sendBinary(value) {
   port.write(buffer);
 }
 function sendBinary1(){
-  fs.readFile('./site.txt', function(err, data) {
+  fs.readFile('site.txt', function(err, data) {
     if (err) throw err;
     const value = parseInt(data.toString());
     console.log('Value read from site.txt:', value);
