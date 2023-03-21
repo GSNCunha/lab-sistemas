@@ -39,15 +39,11 @@ body
 .ledOff{
 background-color: gray;
 }
-.ledOn25
+.ledOn33
 {
   background-color: #878100;
 }
-.ledOn50
-{
-  background-color: #ACA400;
-}
-.ledOn75
+.ledOn66
 {
   background-color: #D3C900;
 }

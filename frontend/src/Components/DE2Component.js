@@ -10,10 +10,10 @@ const DE2Component = (props) => {
             <div className='blank'/>
             <div className='blank'/>
             <div className='ledRow'>
-                <LED number='0'/>
-                <LED number='1'/>
-                <LED number='2'/>
                 <LED number='3'/>
+                <LED number='2'/>
+                <LED number='1'/>
+                <LED number='0'/>
             </div>
             <div className='blank'/>
             <div className='blank'/>
