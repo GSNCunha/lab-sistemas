@@ -1,4 +1,4 @@
-````markdown
+
 # Digital Systems Laboratory Project
 
 This project was developed for the Digital Systems Laboratory course at UFRGS. The objective was to create a project connecting an FPGA — specifically a DE2 board — to an Arduino via a serial connection, and to implement functionality for this communication.
@@ -18,5 +18,4 @@ This setup allows the FPGA board to be controlled from any computer worldwide.
 ## Demo
 
 You can see the project in action here: [Project Demo Video](https://youtu.be/CoUZMIXGW-w)
-````
 
