@@ -17,5 +17,5 @@ This setup allows the FPGA board to be controlled from any computer worldwide.
 
 ## Demo
 
-You can see the project in action here: [Project Demo Video](https://youtu.be/CoUZMIXGW-w)
+You can see the project in action here: [Project Video](https://youtu.be/CoUZMIXGW-w)
 
